@@ -25,8 +25,17 @@
 ## Docker simple commands  
  - sudo nvidia-docker ps -a: See all containers ID 
  - sudo nvidia-docker commit ID dockername:Tags : After installing something, Give new tags
- - sudo nvidia-docker run dockername:Tags /bin/bash: run nvidia-docker 
+ - sudo nvidia-docker run dockername:Tags /bin/bash: run nvidia-docker
+ - Container list: sudo docker ps -a
+ - Remove container: sudo docker rm ContainerID
+ - Image list: sudo docker images
+ - Remove Images: sudo docker rmi Imagename:Tags
+ - Commit images: sudo docker commit Imagename:newTags
+ - Push Image to dockerhub: sudo docker push Imagename:Tags (For first time login required,like github)
  
+## Docker adduser 
+ - Run docker 
+ - Write: groupadd -r groupname -g 1000 && useradd -u 1000 -r -g username -d <home/dir> -s /sbin/nologin -c "Docker image user" yjyoon && chown -R useradd:groupname <home/dir>
 
 ## Install Ubuntu mate 
  http://wincloud.link/pages/viewpage.action?pageId=9175071
