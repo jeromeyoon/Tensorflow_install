@@ -4,12 +4,9 @@
  - Step1. Install Ubuntu 14.04
  - Step2. Install Nvidia driver
  - Step3. Install CUDA
-   insert following two path 
-     
+ - Step4. Edit ~/.bashrc file and add follow twe lines
    export PATH=/usr/local/cuda/bin:$PATH
-
    export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
-    
 
 
 
