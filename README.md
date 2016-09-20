@@ -1,9 +1,12 @@
 # Tensorflow_install
-## Steps
+
+## Install Essential(NVIDIA Driver &CUDA)
  -Step1. Install Ubuntu 14.04
  -Step2. Install Nvidia driver
  -Step3. Install CUDA
  -Step4. Install Cudnn
  -Step5. sudo apt-get update && sudo apt-get install build-essential
- -Step6.
+
+## Ubuntu 14.04
+ - ubuntu 14.04 do it yourself!
 
