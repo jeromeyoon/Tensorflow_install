@@ -17,6 +17,12 @@
  - Step2. Install nvidia-docker: https://github.com/NVIDIA/nvidia-docker
  - Step3. Run docker: 
  - More Tensorflow docker tags: https://hub.docker.com/r/tensorflow/tensorflow/tags/
+ 
+ ## Docker 
+ - sudo nvidia-docker ps -a: See all containers ID 
+ - sudo nvidia-dockder commit ID dockername:Tags : After installing something, 
+ - sudo nvidia-docker run dockername:Tags /bin/bash: run nvidia-docker 
+ 
 
 ## Install Ubuntu mate 
  http://wincloud.link/pages/viewpage.action?pageId=9175071
