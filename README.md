@@ -2,14 +2,18 @@
 
 ## Install Essential(NVIDIA Driver &CUDA)
  - Step1. Install Ubuntu 14.04
- - Step2. Install Nvidia driver
- - Step3. Install CUDA
- - Step4. Edit ~/.bashrc file and add following two lines
+ - Step2. sudo apt-get update && sudo apt-get install build-essential
+ - Step3. Install Nvidia driver
+ - Step4. Install CUDA
+ - Step5. Edit ~/.bashrc file and add following two lines
  	* export PATH=/usr/local/cuda/bin:$PATH
  	* export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
- - Step5. Install Cudnn
- - Step6. sudo apt-get update && sudo apt-get install build-essential
+ - Step6. Install Cudnn
  
 ## Install Tensorflow
+
+
+## Install Ubuntu mate 
+ 
 
 
