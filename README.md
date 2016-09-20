@@ -19,8 +19,8 @@
  - More Tensorflow docker tags: https://hub.docker.com/r/tensorflow/tensorflow/tags/
 
 ## Docker manual
-http://pyrasis.com/Docker/Docker-HOWTO (Koean)
-http://m.blog.naver.com/alice_k106/220340499760 (Korean)
+ - http://pyrasis.com/Docker/Docker-HOWTO (Koean)
+ - http://m.blog.naver.com/alice_k106/220340499760 (Korean)
  
 ## Docker simple commands  
  - sudo nvidia-docker ps -a: See all containers ID 
