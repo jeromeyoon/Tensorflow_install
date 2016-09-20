@@ -1,4 +1,4 @@
-# Tensorflow_install(Ubuntu 14.04+Titan X)
+# Tensorflow_install(Ubuntu 14.04+Titan X+CUDA7.5)
 
 ## Install Essential(NVIDIA Driver &CUDA)
  - Step1. Install Ubuntu 14.04
