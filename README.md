@@ -24,7 +24,7 @@
  
 ## Docker simple commands  
  - sudo nvidia-docker ps -a: See all containers ID 
- - sudo nvidia-dockder commit ID dockername:Tags : After installing something, 
+ - sudo nvidia-docker commit ID dockername:Tags : After installing something, Give new tags
  - sudo nvidia-docker run dockername:Tags /bin/bash: run nvidia-docker 
  
 
