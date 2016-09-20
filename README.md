@@ -21,7 +21,7 @@
 ## Docker manual
 http://pyrasis.com/Docker/Docker-HOWTO (Koean)
  
-## Docker simple 
+## Docker simple commands  
  - sudo nvidia-docker ps -a: See all containers ID 
  - sudo nvidia-dockder commit ID dockername:Tags : After installing something, 
  - sudo nvidia-docker run dockername:Tags /bin/bash: run nvidia-docker 
