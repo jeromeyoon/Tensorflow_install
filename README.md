@@ -11,9 +11,12 @@
  - Step6. Install Cudnn
  
 ## Install Tensorflow
-
+### Install Docker
+ - Step1. Install docker: https://docs.docker.com/engine/installation/
 
 ## Install Ubuntu mate 
  http://wincloud.link/pages/viewpage.action?pageId=9175071
-
+ 
+  
+ 
 
