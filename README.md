@@ -13,6 +13,8 @@
 ## Install Tensorflow
 ### Install Docker
  - Step1. Install docker: https://docs.docker.com/engine/installation/
+ - Step2. Install nvidia-docker: https://github.com/NVIDIA/nvidia-docker
+ - More Tensorflow docker tags: https://hub.docker.com/r/tensorflow/tensorflow/tags/
 
 ## Install Ubuntu mate 
  http://wincloud.link/pages/viewpage.action?pageId=9175071
