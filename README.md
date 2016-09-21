@@ -11,16 +11,16 @@
  - Step6. Install Cudnn
  - Step7. apt-cache policy libcudnn5 (To verify installed Cudnn)
  
-## Install Tensorflow
-### Install Docker
+## Install Tensorflow Via Docker
 **Using nvidia-docker, DO not need to install, CUDA  and Cudnn** 
  - Step1. Install docker: https://docs.docker.com/engine/installation/
  - Step2. Install nvidia-docker: https://github.com/NVIDIA/nvidia-docker
- - Step3. Run docker: 
+ - Step3. Install tensorflow docker: https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#docker-installation 
  - More Tensorflow docker tags: https://hub.docker.com/r/tensorflow/tensorflow/tags/
 
 ## Docker manual
  - http://pyrasis.com/Docker/Docker-HOWTO (Koean)
+ - http://www.slideshare.net/pyrasis/docker-fordummies-44424016 (Korean)
  - http://m.blog.naver.com/alice_k106/220340499760 (Korean)
  
 ## Docker simple commands  
