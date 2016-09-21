@@ -9,10 +9,11 @@
  	* export PATH=/usr/local/cuda/bin:$PATH
  	* export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
  - Step6. Install Cudnn
+ - Step7. apt-cache policy libcudnn5 (To verify installed Cudnn)
  
 ## Install Tensorflow
 ### Install Docker
-**Using nvidia-docker, DO not need to install Nvidia direver, CUDA  and Cudnn** 
+**Using nvidia-docker, DO not need to install, CUDA  and Cudnn** 
  - Step1. Install docker: https://docs.docker.com/engine/installation/
  - Step2. Install nvidia-docker: https://github.com/NVIDIA/nvidia-docker
  - Step3. Run docker: 
