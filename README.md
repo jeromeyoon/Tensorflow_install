@@ -23,15 +23,13 @@
  - http://www.slideshare.net/pyrasis/docker-fordummies-44424016 (Korean)
  - http://m.blog.naver.com/alice_k106/220340499760 (Korean)
  
-## Docker simple commands  
- - sudo nvidia-docker ps -a: See all containers ID 
- - sudo nvidia-docker commit ID dockername:Tags : After installing something, Give new tags
- - sudo nvidia-docker run dockername:Tags /bin/bash: run nvidia-docker
- - Container list: sudo docker ps -a
+## Docker essential commands  
+ - sudo nvidia-docker commit ID dockername:Tags : After modifying something in a docker image, making a new docker image's tag
+ - sudo nvidia-docker run docker_imagename:Tags /bin/bash: run nvidia-docker
+ - sudo docker ps -a: See all containers ID 
  - Remove container: sudo docker rm ContainerID
- - Image list: sudo docker images
+ - sudo docker images: See all Image list
  - Remove Images: sudo docker rmi Imagename:Tags
- - Commit images: sudo docker commit Imagename:newTags
  - Push Image to dockerhub: sudo docker push Imagename:Tags (For first time login required,like github)
  
 ## Docker adduser 
