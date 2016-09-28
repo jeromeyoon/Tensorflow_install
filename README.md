@@ -36,8 +36,8 @@
  
 ## Docker adduser 
  - Run docker 
- - Write: groupadd -r groupname -g 1000 && useradd -u 1000 -r -g username -d <home/dir> -s /sbin/nologin -c "Docker image user" yjyoon && chown -R useradd:groupname <home/dir>
-
+ - Write: groupadd -r groupname -g 1000 && useradd -u 1000 -r -g username -d <home/dir> -s /sbin/nologin -c "Docker image user" username && chown -R useradd:groupname <home/dir>
+ - 1000:userid
 ## Install Ubuntu mate 
  http://wincloud.link/pages/viewpage.action?pageId=9175071
  
